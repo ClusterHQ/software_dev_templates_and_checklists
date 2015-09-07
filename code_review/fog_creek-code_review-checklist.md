@@ -1,3 +1,6 @@
+
+# Guidelines for both the reviewer and the submitter:
+
 # General
 
 
@@ -47,6 +50,20 @@ indentations, formatting, and comments.
 - [ ] Could any test code be replaced with the use of an existing API?
 
 
+
+# Guidelines for the Reviewer:
+
+
+- [ ] Is this a good solution regardless of my own preferences to solve
+    the problem (there is more than one way to do it)
+- [ ] If I am not happy with a particular piece of code,
+    can I match it with one the guidelines listed at the top of this document ?
+- [ ] Have I provided an example re-implementation code for the piece
+    I don't particularly agree ?
+- [ ] Have I only provided constructive feedback?
+- [ ] Are my concerns enough to 'block' this code to be merged?
+
+
 # Attribution
 
 This template came verbatim from the [Fog Creek blog post with a Code Review
@@ -55,3 +72,8 @@ and was the inspiration for the software_dev_templates_and_checklists
 effort.  Please, read the blog post to understand the motivation for
 this checklist as well as understanding how to use it.
 
+# Additional reading:
+
+http://kevinlondon.com/2015/05/05/code-review-best-practices.html
+
+https://news.ycombinator.com/item?id=9517892
