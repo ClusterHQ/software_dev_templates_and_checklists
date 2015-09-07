@@ -137,3 +137,7 @@ https://news.ycombinator.com/item?id=9517892
     for responses before the code can be merged, because they've degraded the
     implicit team trust. Usually repeat offenders are assholes, and assholes
     generally don't last on healthy teams.
+
+# How well are we doing ?
+
+https://biterg.io/dashboards/e3e205eb-cfb7-4086-b7df-adbb2d93f42d/ng/#/
