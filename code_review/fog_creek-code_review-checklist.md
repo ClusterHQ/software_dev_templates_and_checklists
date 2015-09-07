@@ -62,6 +62,7 @@ indentations, formatting, and comments.
     I don't particularly agree ?
 - [ ] Have I only provided constructive feedback?
 - [ ] Are my concerns enough to 'block' this code to be merged?
+- [ ] Have I thanked the submitter for their efforts ?
 
 
 # Attribution
@@ -76,4 +77,63 @@ this checklist as well as understanding how to use it.
 
 http://kevinlondon.com/2015/05/05/code-review-best-practices.html
 
+    On mindset
+
+    As developers, we are responsible for making both working and maintainable
+    code. It can be easy to defer the second part because of pressure to
+    deliver working code. Refactoring does not change functionality by
+    design, so don’t let suggested changes discourage you. Improving
+    the maintainability of the code can be just as important as fixing
+    the line of code that caused the bug.
+
+    In addition, please keep an open mind during code reviews.
+    This is something I think everyone struggles with.
+    I can get defensive in code reviews too, because it can feel personal when
+    someone says code you wrote could be better.
+
+    If the reviewer makes a suggestion, and I don’t have a clear answer as to
+    why the suggestion should not be implemented, I’ll usually make the change.
+    If the reviewer is asking a question about a line of code, it may mean that
+    it would confuse others in the future.
+    In addition, making the changes can help reveal
+    larger architectural issues or bugs.
+
+
 https://news.ycombinator.com/item?id=9517892
+
+    If the reviewer makes a suggestion,
+    and I don’t have a clear answer as to why the suggestion should not be
+    implemented, I’ll usually make the change
+
+    This I feel is bad. Code reviews are usually between peers so you
+    shouldn't be afraid to seek out clarification where possible.
+    You shouldn't be making edits to code that goes in production
+    without clearly understanding why.
+
+    The other thing that wasn't mentioned, that I think is important,
+    is to not act as a blocker for code reviews unless its absolutely necessary.
+    Lots of engineers take on the attitude that they're going to "gate" code they
+    don't agree with by with holding their +1 and bogging down the review with
+    questions and all sorts of runarounds till its what they want.
+    this is a bad attitude to have, even when you're dealing
+    with Junior engineers.
+
+    I'm generally going to +1 something unless I fundamentally disagree with it
+    or think its going to break things in production. What I do, though, is
+    leave lots of comments with questions/suggestions and mention it in the +1
+    with (see comments).
+
+    This builds trust on teams, and stops things getting personal, especially
+    with people who aren't very good at dealing with criticism, even
+    in something as banal as a CR. On a team that works well together,
+    teammates will see those comments, think about them and make
+    thoughtful responses, especially once they understand that you're not
+    trying to get in their way. Giving the +1 gives them the freedom to
+    consider your suggestions without being irritated that their PR is
+    being blocked. They feel like they're in control not you.
+
+    In rare exceptions, someone will brush off my questions and merge ... which
+    means that next time, I get to be tougher on the review and specifically ask
+    for responses before the code can be merged, because they've degraded the
+    implicit team trust. Usually repeat offenders are assholes, and assholes
+    generally don't last on healthy teams.
